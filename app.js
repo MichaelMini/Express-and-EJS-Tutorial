@@ -1,4 +1,3 @@
-/*jshint esversion: 6 */
 /* app.js */
 
 // require and instantiate express
