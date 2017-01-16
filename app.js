@@ -33,12 +33,12 @@ const posts = [
 ]
 
 // set the view engine to ejs
-app.set('view engine', ejs)
+app.set('view engine', 'ejs')
 
 // blog home page
 app.get('/', (req, res) => {
 	// render 'home.ejs' with the list of posts
-	res.render('home', { posts:posts })
+	res.render('home', { posts: posts })
 })
 
 // blog post
